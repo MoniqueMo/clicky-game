@@ -1,0 +1,28 @@
+.gameCards{
+
+    background: rgb(182, 181, 181);
+    border-radius: 2px;
+    height: 250px;
+    margin: 2rem;
+    position: relative;
+    width: 300px;
+    text-align: left;
+}
+
+.gameCards > .pic-container {
+    height: 100%;
+    overflow: hidden;
+    text-align: center;
+    background: rgb(196, 194, 194);
+  }
+
+  .gameCards > .pic-container > img {
+    width: 50%;
+    align-content: center;
+  }
+
+  .gameCards > .content {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-size: 15px;
+  }
